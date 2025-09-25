@@ -1,18 +1,16 @@
-#include <iostream>
-using namespace std;
+#include using namespace std;
 
-int main() {
-    int num;
+int main() { int num;
 
-    cout << "Enter a number: ";
-    cin >> num;
+cout << "Enter a number: ";
+cin >> num;
 
-    // Check even or odd using modulus operator
-    if (num % 2 == 0) {
-        cout << num << " is Even." << endl;
-    } else {
-        cout << num << " is Odd." << endl;
-    }
+// Check even or odd using modulus operator
+if (num % 2 == 0) {
+    cout << num << " is Even." << endl;
+} else {
+    cout << num << " is Odd." << endl;
+}
 
-    return 0;
+return 0;
 }
