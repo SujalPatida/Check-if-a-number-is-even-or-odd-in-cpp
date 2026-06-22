@@ -8,5 +8,6 @@ if (num % 2 == 0) {
 } else {
     cout << num << " is Odd." << endl;   
 }
+
 return 0;
 }
